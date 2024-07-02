@@ -25,6 +25,9 @@ const Header = ({ isDark }) => {
                             <Link to='/portfolio' className={`${location.pathname == '/portfolio' ? isDark ? 'border-b-custom-dark' : 'border-white' : 'border-b-transparent'} border-b pb-1 px-2 cursor-pointer`}>
                                 Portfolio
                             </Link>
+                            <Link to='/skills' className={`${location.pathname == '/skills' ? isDark ? 'border-b-custom-dark' : 'border-white' : 'border-b-transparent'} border-b pb-1 px-2 cursor-pointer`}>
+                                Skills
+                            </Link>
                             <Link to='/about' className={`${location.pathname == '/about' ? isDark ? 'border-b-custom-dark' : 'border-white' : 'border-b-transparent'} border-b pb-1 px-2 cursor-pointer`}>
                                 About
                             </Link>
@@ -59,6 +62,9 @@ const Header = ({ isDark }) => {
                                             </Link>
                                             <Link to='/portfolio' className={`${location.pathname == '/portfolio' ? 'opacity-100' : 'opacity-65'} pb-1 cursor-pointer`}>
                                                 Portfolio
+                                            </Link>
+                                            <Link to='/skills' className={`${location.pathname == '/skills' ? 'opacity-100' : 'opacity-65'} pb-1 cursor-pointer`}>
+                                                Skills
                                             </Link>
                                             <Link to='/about' className={`${location.pathname == '/about' ? 'opacity-100' : 'opacity-65'} pb-1 cursor-pointer`}>
                                                 About

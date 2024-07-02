@@ -18,6 +18,7 @@ export default {
       },
       boxShadow: {
         'button-contact': '0px 3px 9px 0px rgba(57, 20, 0, 0.08)',
+        'skill-box': '0px 0px 15px 1px rgba(0, 0, 0, 0.75)'
       },
     },
   },
