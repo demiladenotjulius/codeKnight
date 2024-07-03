@@ -15,7 +15,8 @@ const ClientsRating = () => {
                         />
                     </div>
                     <div className=' break-words text-lg opacity-65'>
-                    Excellent job on our web interface. The site is incredibly fast and smooth. The attention to detail and responsiveness to our needs were outstanding. We are highly satisfied with the results.                    </div>
+                    Demilade was referred by a colleague in 2021, and ever since then, he has been our go-to for website development
+                      </div>
                     <div className='flex items-center gap-6'>
                         <div>
                             <img
@@ -36,7 +37,7 @@ const ClientsRating = () => {
                         />
                     </div>
                     <div className=' -mb-4 break-words text-lg opacity-65'>
-                    Outstanding job on our Node.js and React.js website. Fast, user-friendly, and visually impressive. Great communication and on-time delivery. Highly recommend                  </div>
+                    Outstanding job on our website. Fast, user-friendly, and visually impressive. Great communication and on-time delivery. Highly recommend                  </div>
                     <div className='flex items-center gap-6 mt-5'>
                         <div>
                             <img
@@ -46,7 +47,7 @@ const ClientsRating = () => {
                         </div>
                         <div className='flex flex-col gap-2'>
                             <p className='text-2xl font-bold'>Ozoro Cowater</p>
-                            <p className='text-lg'>Photogram</p>
+                            <p className='text-lg'>Creative Mind Studios</p>
                         </div>
                     </div>
                 </div>
@@ -58,16 +59,18 @@ const ClientsRating = () => {
                         />
                     </div>
                     <div className=' break-words text-lg opacity-65'>
-                    Fantastic work on our website. It's fast and user-friendly. The team also ensures excellent ongoing maintenance.                   </div>
+                    A great team player. worked on our website, fast and user-friendly. The team also ensures excellent ongoing maintenance.                   </div>
                     <div className='flex items-center gap-6 mt-5'>
                         <div>
                             <img
-                                src='/client/client3.png'
+                                src='/client/mrdavid.jpeg'
+                                className='w-21 h-20 ' style={{borderRadius: '50px', objectFit: 'cover'}}
+
                             />
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <p className='text-2xl font-bold'>Graham Griffiths</p>
-                            <p className='text-lg'>Twitor</p>
+                            <p className='text-2xl font-bold'>David Olamilekan</p>
+                            <p className='text-lg'>Afritage</p>
                         </div>
                     </div>
                 </div>
