@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from './Logo';
 import { Link } from 'react-router-dom';
+import { FaGithub } from "react-icons/fa";
+
 
 const Footer = ({ isDark }) => {
     return (
@@ -23,13 +25,22 @@ const Footer = ({ isDark }) => {
                 </div>
                 <div className='gap-2 flex'>
                     <div className='w-[48px] h-[48px] rounded-full bg-custom-orange flex items-center justify-center'>
-                        <img src='/facebook.svg'/>
+                        {/* <img src='/client/githubreal.png'/> */}
+                        <a href="https://github.com/demiladenotjulius">
+                        <FaGithub className='text-white	' />
+                        </a>
+
                     </div>
                     <div className='w-[48px] h-[48px] rounded-full bg-custom-orange flex items-center justify-center'>
+                        <a href="https://x.com/__demiladeee?s=21&t=Cdw93pMM85VZDkvSZYh59w">
                         <img src='/twitter.svg'/>
+                        </a>
                     </div> 
                     <div className='w-[48px] h-[48px] rounded-full bg-custom-orange flex items-center justify-center'>
-                        <img src='/instagram.svg'/>
+                        {/* <img src='/instagram.svg'/> */}
+                        <a href="https://www.instagram.com/demiladenotjulius">
+                          <img src="/instagram.svg" alt="Instagram" />
+                        </a>
                     </div>
                 </div>
             </div>

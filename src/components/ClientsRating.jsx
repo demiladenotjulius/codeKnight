@@ -15,17 +15,16 @@ const ClientsRating = () => {
                         />
                     </div>
                     <div className=' break-words text-lg opacity-65'>
-                        A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
-                    </div>
+                    Excellent job on our web interface. The site is incredibly fast and smooth. The attention to detail and responsiveness to our needs were outstanding. We are highly satisfied with the results.                    </div>
                     <div className='flex items-center gap-6'>
                         <div>
                             <img
-                                src='/client/client1.png'
-                            />
+                                src='/client/blessing.jpeg'
+                            className='w-20 h-20' style={{borderRadius: '50px', objectFit: 'cover'}}/>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <p className='text-2xl font-bold'>Alan Martí</p>
-                            <p className='text-lg'>Meta Inc.</p>
+                            <p className='text-2xl font-bold'>Blessing Mo</p>
+                            <p className='text-lg'>Vel triplum</p>
                         </div>
                     </div>
                 </div>
@@ -36,17 +35,17 @@ const ClientsRating = () => {
                             alt='star'
                         />
                     </div>
-                    <div className=' break-words text-lg opacity-65'>
-                        Provide your business with a variety of digital solutions to promote your product or service online.
-                    </div>
+                    <div className=' -mb-4 break-words text-lg opacity-65'>
+                    Outstanding job on our Node.js and React.js website. Fast, user-friendly, and visually impressive. Great communication and on-time delivery. Highly recommend                  </div>
                     <div className='flex items-center gap-6 mt-5'>
                         <div>
                             <img
-                                src='/client/client2.png'
-                            />
+                                src='/client/cowater.jpeg'
+                                className='w-21 h-20 ' style={{borderRadius: '50px', objectFit: 'cover'}}/>
+
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <p className='text-2xl font-bold'>Richardo Kann</p>
+                            <p className='text-2xl font-bold'>Ozoro Cowater</p>
                             <p className='text-lg'>Photogram</p>
                         </div>
                     </div>
@@ -59,8 +58,7 @@ const ClientsRating = () => {
                         />
                     </div>
                     <div className=' break-words text-lg opacity-65'>
-                        Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.
-                    </div>
+                    Fantastic work on our website. It's fast and user-friendly. The team also ensures excellent ongoing maintenance.                   </div>
                     <div className='flex items-center gap-6 mt-5'>
                         <div>
                             <img
@@ -81,8 +79,7 @@ const ClientsRating = () => {
                         />
                     </div>
                     <div className=' break-words text-lg opacity-65'>
-                        Promote your product or service online and help you hit your marketing goals and grow your business.
-                    </div>
+                    Great work on our website and its marketing. The team’s digital marketing skills drove significant traffic and engagement. We're very impressed!                    </div>
                     <div className='flex items-center gap-6 mt-5'>
                         <div>
                             <img

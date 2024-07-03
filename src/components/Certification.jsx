@@ -40,7 +40,7 @@ const Certification = () => {
                         </p>
                         <div className='flex flex-col md:flex-row gap-6 items-center'>
                             <p className='text-xl'>
-                                CSS Design Awards
+                            NodeJS Tutorial and Projects Course
                             </p>
                             <img src='/cert/cert5.png' />
                         </div>
@@ -56,11 +56,11 @@ const Certification = () => {
                     </div>
                     <div className='md:w-[52%] flex flex-col items-center gap-3 md:justify-between md:flex-row'>
                         <p className=' opacity-65 text-lg'>
-                            7 Oct, 2021
+                            7 Oct, 2024
                         </p>
                         <div className='flex flex-col md:flex-row gap-6 items-center'>
                             <p className='text-xl'>
-                                The FWA
+                            MERN 2024 Edition 
                             </p>
                             <img src='/cert/cert6.png' />
                         </div>

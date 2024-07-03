@@ -8,7 +8,7 @@ export default function WhatIcanDo() {
                             <img src="/iphone.svg" />
                         </div>
                         <p className="text-[40px]">
-                            91+ Mobile Applications
+                            10+ Mobile Applications
                         </p>
                     </div>
                     <div className="px-8 py-4 flex items-center gap-2 w-full bg-light-brown rounded-md shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
@@ -16,7 +16,7 @@ export default function WhatIcanDo() {
                             <img src="/coding.svg" />
                         </div>
                         <p className="text-[40px]">
-                            131+ Website
+                            20+ Website
                         </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default function WhatIcanDo() {
             <div className="relative w-full grid grid-cols-3 md:mt-32 mt-6">
                 <div className="z-10 w-full border border-light-grey flex flex-col px-3 md:px-12 py-1 md:py-11 gap-[1px] md:gap-5 rounded-l-md">
                     <p className="text-base md:text-[40px] font-extrabold">
-                        5
+                        2
                     </p>
                     <p className="text-[10px] md:text-[20px]">
                         Years of experience
@@ -48,7 +48,7 @@ export default function WhatIcanDo() {
                 </div>
                 <div className="z-10 w-full border border-light-grey flex flex-col px-3 md:px-12 py-1 md:py-11 gap-[1px] md:gap-5 ">
                     <p className="text-base md:text-[40px] font-extrabold">
-                        173+
+                        30+
                     </p>
                     <p className="text-[10px] md:text-[20px]">
                         Happy Clients
@@ -56,7 +56,7 @@ export default function WhatIcanDo() {
                 </div>
                 <div className="z-10 w-full border border-light-grey flex flex-col px-3 md:px-12 py-1 md:py-11 gap-[1px] md:gap-5 rounded-r-md">
                     <p className="text-base md:text-[40px] font-extrabold">
-                        221+
+                        55+
                     </p>
                     <p className="text-[10px] md:text-[20px]">
                         Projects complete

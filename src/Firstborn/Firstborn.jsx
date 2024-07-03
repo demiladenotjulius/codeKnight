@@ -37,24 +37,24 @@ export default function Firstborn() {
               My Work Experiences
             </h2>
             <TimelineItem
-              dateRange="Sep 2022 - Dec 2023"
-              location="Self Employed, Nigeria"
+              dateRange="June 2023 - Present "
+              location="UAD TECH, Nigeria"
               title="Web Developer"
-              description="Worked as a web developer senior intern with Google experience designers. Worked on couple of projects, lead, follow, plan and execute."
+              description="I'm currently interning as a software engineer, gaining hands-on experience in developing solutions with modern technologies like React for frontend, MongoDB and Firebase for databases, PrismJS for code formatting, and exploring AI."
               circleColor="green"
             />
             <TimelineItem
-              dateRange="Sep 2022 - Dec 2023"
-              location="Self Employed, Nigeria"
-              title="Senior Developer"
-              description="Worked as a web developer senior intern with Google experience designers. Worked on couple of projects, lead, follow, plan and execute."
+              dateRange="Jan 2023 - June 2023"
+              location="Afritage, Nigeria"
+              title="Software Engineer Internship"
+              description="Had the opportunity to undertake a software engineering internship where I worked extensively with technologies such as React, JavaScript, Node.js, PrismJS, MongoDB, Firebase, and Rapid AI. During this time, I developed and implemented robust solutions, gained hands-on experience in frontend and backend development, and honed my skills in database management and integrating AI technologies. It was a valuable experience that enhanced my proficiency in building scalable and efficient software solutions."
               circleColor="red"
             />
             <TimelineItem
-              dateRange="Sep 2022 - Dec 2023"
-              location="Self Employed, Nigeria"
-              title="Web Developer"
-              description="Worked as a web developer senior intern with Google experience designers. Worked on couple of projects, lead, follow, plan and execute."
+              dateRange="Feb 2022 - Dec 2022"
+              location="3chub, Nigeria"
+              title="IT Internship"
+              description="Gained valuable experience during my IT internship, where I was actively involved in various projects. I learned hands-on skills in troubleshooting, software installation, and system maintenance, and I enjoyed applying my knowledge to contribute to the team's success."
               circleColor="blue"
             />
           </div>

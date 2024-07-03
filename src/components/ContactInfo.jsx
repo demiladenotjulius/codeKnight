@@ -10,7 +10,7 @@ const ContactInfo = () => {
                     </div>
                     <p className='text-custom-orange text-lg uppercase tracking-[3px]'>phone</p>
                 </div>
-                <p className='text-xl '>+234 90 95311593</p>
+                <p className='text-xl '>+234 70 37476266</p>
             </div>
             <div className='px-4 w-full md:px-12 py-8 border-light-grey border'>
                 <div className='flex mb-6 items-center gap-6'>
@@ -19,7 +19,7 @@ const ContactInfo = () => {
                     </div>
                     <p className='text-custom-orange text-lg uppercase tracking-[3px]'>email</p>
                 </div>
-                <p className=' text-xl '>damilade@gmail.com</p>
+                <p className=' text-xl '>damilade3chub@gmail.com</p>
             </div>
             <div className='px-4 w-full md:px-12 py-8 border-light-grey border rounded-r-md'>
                 <div className='flex mb-6 items-center gap-6'>

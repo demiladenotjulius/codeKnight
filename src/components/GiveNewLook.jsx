@@ -9,7 +9,7 @@ const GiveNewLook = () => {
                     A New Look
                 </h2>
                 <p className='text-xl'>
-                    Service range including technical skills, design,<br />developing, business understanding.
+                    Service range including technical skills, coding,<br />developing, business understanding.
                 </p>
                 <div className='flex flex-col gap-4'>
                     <div className='flex items-center gap-4'>
