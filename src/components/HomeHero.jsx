@@ -34,7 +34,7 @@ export default function HomeHero() {
                             />
                         </div>
                         <div className="flex items-center gap-3">
-                            <p className="font-bold text-[80px]">2</p>
+                            <p className="font-bold text-[80px]">3</p>
                             <p className="leading-[32px] tracking-[10px]">
                                 Years<br />
                                 Experiences
