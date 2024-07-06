@@ -28,7 +28,7 @@ const ContactInfo = () => {
                     </div>
                     <p className='text-custom-orange text-lg uppercase tracking-[3px]'>address</p>
                 </div>
-                <p className=' text-xl '>Somewhere in Lagos</p>
+                <p className=' text-xl '>Lagos, NG</p>
             </div>
         </div>
     );
