@@ -56,13 +56,13 @@ const Portfolio = () => {
                         </select>
                         <div className='w-full flex flex-col gap-8'>
                             <Link to="/detailed" className='w-full md:aspect-video overflow-hidden relative'>
-                                <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>KeyBoard WEB</p>
-                                <img src='/projects/1.png' className='rounded-md w-full h-full' />
+                                <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Treasure Cart</p>
+                                <img src='/projects/treasure.png' className='rounded-md  w-full h-full' />
                             </Link>
                             <div className='w-full flex-col md:flex-row flex gap-8'>
-                                <Link to="/detailed" className='w-full md:w-[50%] overflow-hidden relative'>
-                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                                    <img src='/projects/1.png' className='rounded-md h-full w-full' />
+                                <Link to="/IDownload" className='w-full md:w-[50%] overflow-hidden relative'>
+                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>iDownload</p>
+                                    <img src='/projects/idownload.png' className='rounded-md h-full w-full' />
                                 </Link>
                                 <Link to="/detailed" className='w-full md:w-[50%] overflow-hidden relative'>
                                     <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>

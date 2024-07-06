@@ -8,7 +8,7 @@ import ReactPlayerStart from "../components/ReactPlayerStart";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const DetailedProject = () => {
+const IDownload = () => {
   return (
     <div className="w-full bg-light-pink relative">
       <Header isDark={false} />
@@ -38,28 +38,29 @@ const DetailedProject = () => {
                 <p className="uppercase text-xs font-bold">Back to portfolio</p>
               </Link>
               <p className="w-full break-words font-extrabold md:text-7xl text-[56px] mt-12">
-                Treasure Cart
+                iDownload
               </p>
               <motion.button
-                whileHover={{ scale: 1.05, backgroundColor: "#F5A10D" }}
+                whileHover={{ scale: 1.05, backgroundColor: "#886F61" }}
                 whileTap={{ scale: 0.95 }}
                 className=" rounded  p-2 font-bold md:absolute md:bottom-[14rem] text-lg "
                 // className="bg-black text-white font-bold py-2 px-4 rounded-full inline-flex items-center font-poppins transition-colors duration:300"
               >
                 <a href="https://treasure-cart.vercel.app/" target="_blank">
-                  Visit Treasure Cart
+                  Visit iDownload
                 </a>
               </motion.button>
               <p className="w-full break-words text-xl mt-6 leading-8">
-                Shop our curated collection of top-quality products with ease.
-                Enjoy secure payments and fast shipping for a seamless shopping
-                experience. Find what you need, all in one place.
+                Instantly download videos from Instagram, Twitter, and more with
+                just the post link. Fast, free, and user-friendly.
               </p>
               <p className="w-full break-words opacity-65 mt-8 leading-8">
-                Explore our extensive collection of phones, gadgets, and
-                clothes. We offer the latest tech, stylish apparel, and
-                must-have accessories. Shop with ease and enjoy secure checkout
-                and fast delivery.{" "}
+                Effortlessly download videos from Instagram, Twitter, and other
+                social platforms using just the post link. Enjoy fast, free, and
+                hassle-free downloads for all your favorite content. No
+                registration required, high-quality downloads, and compatible
+                with any device. Your go-to solution for saving and sharing
+                videos with ease.
               </p>
 
               <div className=" mt-12 flex md:flex-row flex-col md:gap-36 gap-12">
@@ -87,7 +88,7 @@ const DetailedProject = () => {
                     {/* <img
                                             src="/canLogo2.svg"
                                         /> */}
-                    <h1>UAD GROUPS</h1>
+                    <h1>codeKnight</h1>
                   </div>
                   <p className="uppercase text-custom-orange tracking-[3px] mb-1 mt-10">
                     Date
@@ -104,7 +105,7 @@ const DetailedProject = () => {
           <div className="flex flex-col w-full mx-auto max-w-[1440px] gap-10 md:gap-32 mt-20">
             <div className="w-full md:aspect-video overflow-hidden relative">
               <img
-                src="/projects/treasure.png"
+                src="/projects/idownload.png"
                 className="rounded-md w-full h-full"
               />
             </div>
@@ -119,10 +120,11 @@ const DetailedProject = () => {
                 Problem
               </p>
               <p className="w-full break-words opacity-65 mt-8 leading-8">
-                Struggling to find reliable tech, trendy clothes, or essential
-                gadgets? We’ve got you covered. Our e-commerce store offers a
-                wide range of phones, gadgets, and apparel to meet your needs,
-                backed by secure payments and fast delivery.{" "}
+                Finding it difficult to download videos from Instagram, Twitter,
+                and other social platforms? We have the solution. Just use the
+                post link to download videos quickly and effortlessly. No
+                registration needed, high-quality downloads, and compatible with
+                any device. Save your favorite content with ease and convenience
               </p>
               {/* <p className='w-full break-words opacity-65 mt-8 leading-8'> */}
               {/* We provide top-quality phones, gadgets, and clothes, ensuring you find exactly what you need. With a seamless shopping experience, secure payments, and fast delivery, we solve your everyday shopping problems effortlessly.                            </p> */}
@@ -171,10 +173,11 @@ const DetailedProject = () => {
                 Solution
               </p>
               <p className="w-full break-words opacity-65 mt-8 leading-8">
-                We provide top-quality phones, gadgets, and clothes, ensuring
-                you find exactly what you need. With a seamless shopping
-                experience, secure payments, and fast delivery, we solve your
-                everyday shopping problems effortlessly.{" "}
+                Struggling to download videos from Instagram, Twitter, and other
+                social platforms? We have the solution. Simply use the post link
+                to download videos quickly and effortlessly. No registration
+                needed, high-quality downloads, and compatible with any device.
+                Save your favorite content with ease and convenience.
               </p>
               {/* <p className='w-full break-words opacity-65 mt-8 leading-8'>
                                 Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
@@ -230,4 +233,4 @@ const DetailedProject = () => {
   );
 };
 
-export default DetailedProject;
+export default IDownload;

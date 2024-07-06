@@ -8,6 +8,7 @@ import Contact from "./Contact/Contact";
 import Portfolio from "./Portfolio/Portfolio";
 import DetailedProject from "./DetailedProject/DetailedProject";
 import Skills from "./Skills/Skills";
+import IDownload from "./idownloaddetails/idownload";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
         <Route path="/detailed" element={<DetailedProject />}></Route>
+        <Route path="/idownload" element={<IDownload />}></Route>
         <Route path="/skills" element={<Skills />}></Route>
       </Routes>
     </>
