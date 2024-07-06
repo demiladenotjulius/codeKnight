@@ -13,8 +13,7 @@ const Header = ({ isDark }) => {
                 <div className='flex flex-col w-full items-center mx-auto max-w-[1440px] py-4'>
                     <div className={`${isDark ? 'text-custom-dark' : 'text-white'} w-full flex items-center justify-between`}>
                         <Link to='/' className='cursor-pointer'>
-                            {/* <Logo isDark={isDark} /> */}
-                            <h1>codeKnight</h1>
+                            <Logo isDark={isDark} />
                         </Link>
                         <div className='hidden items-center justify-center gap-16 lg:flex'>
                             <Link to='/' className={`${location.pathname == '/' ? isDark ? 'border-b-custom-dark' : 'border-white' : 'border-b-transparent'} border-b pb-1 px-2 cursor-pointer`}>
