@@ -37,7 +37,7 @@ export default function HomeHero() {
                             <p className="font-bold text-[80px]">3</p>
                             <p className="leading-[32px] tracking-[10px]">
                                 Years<br />
-                                Experiences
+                                Experience
                             </p>
                         </div>
                         <div className="md:flex hidden">
