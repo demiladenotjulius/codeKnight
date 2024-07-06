@@ -33,7 +33,7 @@ const Services = () => {
                                     I transform your vision into reality with our customized web development services. Starting with an in-depth consultation and strategic planning, we ensure alignment with your business goals. Our design and development process uses cutting-edge technologies to create user-friendly websites, incorporating agile development for transparency and flexibility, along with rigorous testing for optimal performance and security.
                                 </p>
                                 <p>
-                                    After development, we handle seamless deployment and provide ongoing support to keep your website running smoothly. From concept to launch, [Your Company Name] delivers expert web development solutions tailored to your needs, creating exceptional digital experiences.
+                                    After development, we handle seamless deployment and provide ongoing support to keep your website running smoothly. From concept to launch, Code Knight delivers expert web development solutions tailored to your needs, creating exceptional digital experiences.
                                 </p>
                             </div>
                         </div>
