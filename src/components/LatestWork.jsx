@@ -36,12 +36,12 @@ const LatestWork = () => {
             <div className='w-full flex flex-col gap-8'>
                 <div className='w-full flex-col md:flex-row flex gap-8'>
                     <div className='w-full md:w-[45%] overflow-hidden relative'>
-                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                        <img src='/projects/1.png' className='rounded-md h-full w-full' />
+                        <p className='absolute bottom-7 left-4 font-extrabold text-black text-5xl'>iDownload</p>
+                        <img src='/projects/idownload.png' className='rounded-md h-full w-full' />
                     </div>
                     <div className='w-full md:w-[55%] overflow-hidden relative'>
-                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                        <img src='/projects/2.png' className='rounded-md h-full w-full' />
+                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Treasure Cart</p>
+                        <img src='/projects/treasure.png' className='rounded-md h-full w-full' />
                     </div>
                 </div>
                 <div className='w-full flex-col md:flex-row flex gap-8'>
