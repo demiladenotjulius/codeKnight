@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Masonry from "react-masonry-css";
 import { Fade } from 'react-reveal';
-
+import { Link } from 'react-router-dom';
 
 const LatestWork = () => {
     const [portVal, setPortVal] = useState(0);
@@ -37,21 +37,30 @@ const LatestWork = () => {
                 <div className='w-full flex-col md:flex-row flex gap-8'>
                     <div className='w-full md:w-[45%] overflow-hidden relative'>
                         <p className='absolute bottom-7 left-4 font-extrabold text-black text-5xl'>iDownload</p>
+                        <Link to='/IDownload'>
                         <img src='/projects/idownload.png' className='rounded-md h-full w-full' />
+                        </Link>
                     </div>
+                   
                     <div className='w-full md:w-[55%] overflow-hidden relative'>
                         <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Treasure Cart</p>
+                        <Link to='/detailed'>
                         <img src='/projects/treasure.png' className='rounded-md h-full w-full' />
+                        </Link>
                     </div>
                 </div>
                 <div className='w-full flex-col md:flex-row flex gap-8'>
                     <div className='w-full md:w-[55%] overflow-hidden relative'>
-                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                        <img src='/projects/3.png' className='rounded-md h-full w-full' />
+                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Shorten</p>
+                        <Link to='/shorten'>
+                        <img src='/projects/shorten.png' className='rounded-md h-full w-full' />
+                        </Link>
                     </div>
                     <div className='w-full md:w-[45%] overflow-hidden relative'>
-                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                        <img src='/projects/4.png' className='rounded-md h-full w-full' />
+                        <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Todos</p>
+                        <Link to='/todos'>
+                        <img src='/projects/todos.png' className='rounded-md h-full w-full' />
+                        </Link>
                     </div>
                 </div>
                 {

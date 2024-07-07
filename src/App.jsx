@@ -9,6 +9,9 @@ import Portfolio from "./Portfolio/Portfolio";
 import DetailedProject from "./DetailedProject/DetailedProject";
 import Skills from "./Skills/Skills";
 import IDownload from "./idownloaddetails/idownload";
+import Fotos from "./fotos/fotos";
+import Todos from "./todos/todos";
+import Shorten from "./shorten/shorten";
 
 function App() {
   return (
@@ -22,6 +25,10 @@ function App() {
         <Route path="/detailed" element={<DetailedProject />}></Route>
         <Route path="/idownload" element={<IDownload />}></Route>
         <Route path="/skills" element={<Skills />}></Route>
+        <Route path="/fotos" element={<Fotos />}></Route>
+        <Route path="/todos" element={<Todos />}></Route>
+        <Route path="/shorten" element={<Shorten />}></Route>
+
       </Routes>
     </>
   );

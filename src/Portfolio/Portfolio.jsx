@@ -64,19 +64,19 @@ const Portfolio = () => {
                                     <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>iDownload</p>
                                     <img src='/projects/idownload.png' className='rounded-md h-full w-full' />
                                 </Link>
-                                <Link to="/detailed" className='w-full md:w-[50%] overflow-hidden relative'>
-                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                                    <img src='/projects/2.png' className='rounded-md h-full w-full' />
+                                <Link to="/shorten" className='w-full md:w-[50%] overflow-hidden relative'>
+                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Shorten</p>
+                                    <img src='/projects/shorten.png' className='rounded-md h-full w-full' />
                                 </Link>
                             </div>
                             <div className='w-full flex-col md:flex-row flex gap-8'>
-                                <Link to="/detailed" className='w-full md:w-[50%] overflow-hidden relative'>
-                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                                    <img src='/projects/3.png' className='rounded-md h-full w-full' />
+                                <Link to="/todos" className='w-full md:w-[50%] overflow-hidden relative'>
+                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>Todos</p>
+                                    <img src='/projects/todos.png' className='rounded-md h-full w-full' />
                                 </Link>
-                                <Link to="/detailed" className='w-full md:w-[50%] overflow-hidden relative'>
-                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>SOFA WEB</p>
-                                    <img src='/projects/4.png' className='rounded-md h-full w-full' />
+                                <Link to="/fotos" className='w-full md:w-[50%] overflow-hidden relative'>
+                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>fotos</p>
+                                    <img src='/projects/fotos.png' className='rounded-md h-full w-full' />
                                 </Link>
                             </div>
                         </div>
