@@ -46,7 +46,7 @@ const Fotos = () => {
                 className=" rounded  p-2 font-bold md:absolute md:bottom-[14rem] text-lg "
                 // className="bg-black text-white font-bold py-2 px-4 rounded-full inline-flex items-center font-poppins transition-colors duration:300"
               >
-                <a href="https://treasure-cart.vercel.app/" target="_blank">
+                <a href="https://github.com/demiladenotjulius/fotos" target="_blank">
                   Visit Fotos
                 </a>
               </motion.button>
