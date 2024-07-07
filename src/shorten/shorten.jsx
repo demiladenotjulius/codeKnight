@@ -46,7 +46,7 @@ const Shorten = () => {
                 className=" rounded  p-2 font-bold md:absolute md:bottom-[14rem] text-lg "
                 // className="bg-black text-white font-bold py-2 px-4 rounded-full inline-flex items-center font-poppins transition-colors duration:300"
               >
-                <a href="hhttps://shortlink-puce.vercel.app" target="_blank">
+                <a href="https://shortlink-puce.vercel.app" target="_blank">
                   Visit shorten
                 </a>
               </motion.button>
