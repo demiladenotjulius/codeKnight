@@ -1,6 +1,7 @@
 import { Fade } from "react-reveal";
 import { motion } from 'framer-motion';
 import mycv from '../assets/mycv.pdf'
+import backimg from '../components/backnew.png'
 
 export default function HomeHero() {
     return (
@@ -19,7 +20,7 @@ export default function HomeHero() {
                         <motion.button
                          whileHover={{ scale: 1.05, backgroundColor: '#fff' }}
                          whileTap={{ scale: 0.95 }}
-                         className="relative rounded  p-2 font-bold md:absolute md:bottom-[-160px] text-lg "
+                         className="relative rounded mb-4  p-2 font-bold md:absolute md:bottom-[-160px] text-lg "
                         // className="bg-black text-white font-bold py-2 px-4 rounded-full inline-flex items-center font-poppins transition-colors duration:300"
                         >
                       <a href={mycv} target="_blank">Download My CV</a>
@@ -27,22 +28,24 @@ export default function HomeHero() {
   
 
                     </div>
-                    <div className="flex w-full md:flex-row md:justify-between flex-col">
+                    <div className="flex  w-full md:flex-row md:justify-between flex-col">
                         <div className="md:hidden flex">
                             <img
-                                src="/hero.png"
+                                src={backimg}
                             />
                         </div>
                         <div className="flex items-center gap-3">
-                            <p className="font-bold text-[80px]">3</p>
+                            <p className="font-bold text-[80px]">2</p>
                             <p className="leading-[32px] tracking-[10px]">
                                 Years<br />
                                 Experience
                             </p>
                         </div>
-                        <div className="md:flex hidden">
-                            <img
-                                src="/hero.png"
+                        <div className="md:flex hidden w-96">
+                            <img c
+                                // src="/hero.png"
+                                src={backimg}
+
                             />
                         </div>
                         <div className="flex flex-row md:flex-col gap-3 md:gap-2  items-center md:justify-center">

@@ -33,7 +33,7 @@ const GiveNewLook = () => {
                 </div>
             </div>
             <div>
-                <img src='/picGiveNewLook.png' />
+                <img style={{width: "600px"}} src='/2.png' />
             </div>
         </div>
     );

@@ -17,8 +17,10 @@ const HelpToBuildDream = () => {
                 </Link>
             </div>
             <div className='order-first md:order-2'>
-                <img
-                    src='/picBuild.png'
+                <img style={{width: '400px'}}
+                    // src='/picBuild.png'
+                  src='/1.png'
+
                 />
             </div>
         </div>
