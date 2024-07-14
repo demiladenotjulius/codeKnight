@@ -35,7 +35,7 @@ export default function HomeHero() {
           <div className="flex  w-full md:flex-row md:justify-between flex-col">
             <div className="md:hidden flex">
               <Helmet>
-                <link rel="preload" as="image" href="/about/backnew.png" />
+                <link rel="preload" as="image" href="/about/backback.png" />
               </Helmet>
               <img src="/about/backback.png" alt="" />
             </div>
@@ -49,7 +49,7 @@ export default function HomeHero() {
             </div>
             <div className="md:flex hidden w-[600px]">
               <Helmet>
-                <link rel="preload" as="image" href="/about/backnew.png" />
+                <link rel="preload" as="image" href="/about/backback.png" />
               </Helmet>
               <img src="/about/backback.png" alt="" />
             </div>
