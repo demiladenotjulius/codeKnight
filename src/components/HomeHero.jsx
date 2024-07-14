@@ -1,7 +1,7 @@
 import { Fade } from "react-reveal";
 import { motion } from 'framer-motion';
 import mycv from '../assets/mycv.pdf'
-import backimg from '../components/backnew.png'
+// import backimg from '../components/backnew.png'
 
 export default function HomeHero() {
     return (
@@ -30,9 +30,8 @@ export default function HomeHero() {
                     </div>
                     <div className="flex  w-full md:flex-row md:justify-between flex-col">
                         <div className="md:hidden flex">
-                            <img
-                                src={backimg}
-                            />
+                        <img src="/about/backnew.png" alt="" />
+
                         </div>
                         <div className="flex items-center gap-3">
                             <p className="font-bold text-[80px]">2</p>
@@ -42,11 +41,7 @@ export default function HomeHero() {
                             </p>
                         </div>
                         <div className="md:flex hidden w-96">
-                            <img c
-                                // src="/hero.png"
-                                src={backimg}
-
-                            />
+                            <img src="/about/backnew.png" alt="" />
                         </div>
                         <div className="flex flex-row md:flex-col gap-3 md:gap-2  items-center md:justify-center">
                             <div>
