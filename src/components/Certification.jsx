@@ -11,12 +11,12 @@ const Certification = () => {
                     <div className='flex flex-col md:flex-row gap-6 items-center'>
                         <img src='/cert/cert1.png' />
                         <p className='text-xl'>
-                            Google
+                            Udemy
                         </p>
                     </div>
                     <div className='md:w-[52%] flex flex-col items-center gap-3 md:justify-between md:flex-row'>
                         <p className=' opacity-65 text-lg'>
-                            25 Oct, 2021
+                            25 Oct, 2023
                         </p>
                         <div className='flex flex-col md:flex-row gap-6 items-center'>
                             <p className='text-xl'>
@@ -31,12 +31,12 @@ const Certification = () => {
                     <div className='flex flex-col md:flex-row gap-6 items-center'>
                         <img src='/cert/cert2.png' />
                         <p className='text-xl'>
-                            Coursera
+                            Udemy
                         </p>
                     </div>
                     <div className='md:w-[52%] flex flex-col items-center gap-3 md:justify-between md:flex-row'>
                         <p className=' opacity-65 text-lg'>
-                            19 Oct, 2021
+                            19 Oct, 2023
                         </p>
                         <div className='flex flex-col md:flex-row gap-6 items-center'>
                             <p className='text-xl'>
