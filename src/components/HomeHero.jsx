@@ -37,7 +37,7 @@ export default function HomeHero() {
               <Helmet>
                 <link rel="preload" as="image" href="/about/backnew.png" />
               </Helmet>
-              <img src="/about/backnew.png" alt="" />
+              <img src="/about/backback.png" alt="" />
             </div>
             <div className="flex items-center gap-3">
               <p className="font-bold text-[80px]">2</p>
@@ -47,11 +47,11 @@ export default function HomeHero() {
                 Experience
               </p>
             </div>
-            <div className="md:flex hidden w-96">
+            <div className="md:flex hidden w-[600px]">
               <Helmet>
                 <link rel="preload" as="image" href="/about/backnew.png" />
               </Helmet>
-              <img src="/about/backnew.png" alt="" />
+              <img src="/about/backback.png" alt="" />
             </div>
             <div className="flex flex-row md:flex-col gap-3 md:gap-2  items-center md:justify-center">
               <div>
