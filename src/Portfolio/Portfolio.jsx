@@ -78,6 +78,10 @@ const Portfolio = () => {
                                     <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>fotos</p>
                                     <img src='/projects/fotos.png' className='rounded-md h-full w-full' />
                                 </Link>
+                                <Link to="/twofactor" className='w-full md:w-[50%] overflow-hidden relative'>
+                                    <p className='absolute bottom-7 left-4 font-extrabold text-white text-5xl'>fotos</p>
+                                    <img src='/projects/twofactor.jpg' className='rounded-md h-full w-full' />
+                                </Link>
                             </div>
                         </div>
                         <div className='flex items-center justify-center mx-auto gap-2'>
