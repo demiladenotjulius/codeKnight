@@ -13,6 +13,7 @@ import Fotos from "./fotos/fotos";
 import Todos from "./todos/todos";
 import Shorten from "./shorten/shorten";
 import Twofactor from "./twofactor/twofactor";
+import Paystack from "./paystack/paystack";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <Route path="/skills" element={<Skills />}></Route>
         <Route path="/fotos" element={<Fotos />}></Route>
         <Route path="/twofactor" element={<Twofactor />}></Route>
-
+        <Route path="/paystack" element={<Paystack />}></Route>
         <Route path="/todos" element={<Todos />}></Route>
         <Route path="/shorten" element={<Shorten />}></Route>
 
